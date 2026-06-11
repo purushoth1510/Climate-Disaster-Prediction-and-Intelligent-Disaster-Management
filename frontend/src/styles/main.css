@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0b0f1a;
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 180px;
+  height: 100vh;
+  background: #111827;
+  position: fixed;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #00d4ff;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.sidebar a:hover {
+  background: #1f2937;
+  color: white;
+}
+
+/* MAIN AREA */
+.main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+}
+
+/* BUTTON */
+button {
+  background: #00d4ff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* INPUT */
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: none;
+}
